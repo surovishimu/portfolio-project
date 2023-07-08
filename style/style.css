@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0px;
 }
 
@@ -15,6 +15,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 200px;
+
 }
 
 nav>ul {
@@ -40,7 +42,7 @@ nav>h3 {
     font-family: Open Sans;
     font-size: 45px;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 800px;
     line-height: normal;
 }
 
@@ -49,12 +51,122 @@ nav>h3 {
     font-size: 20px;
     line-height: normal;
 }
-nav button{
+
+.btn-primary {
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+}
+
+.header {
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-position: bottom right, left;
+    background-repeat: no-repeat;
+    background-size: 800px, 120px 650px;
+
+
+
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-pic {
+    width: 500px;
+    height: 600px;
+}
+
+.banner-greetings {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.banner-text {
+    color: #757575;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.btn-secondery {
     width: 120px;
-height: 40px;
-border-radius: 5px;
-background: #FD6E0A;
-border: none;
-cursor: pointer;
-color: white;
+    height: 40px;
+    border-radius: 5px;
+    background: white;
+    border: none;
+    cursor: pointer;
+    color: #FD6E0A;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    margin-left: 10px;
+}
+
+.banner-content {
+    max-width: 600px;
+}
+
+.sec-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.about-text {
+    color: #757575;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 10px;
+    max-width: 700px;
+    margin-left: 160px;
+
+
+}
+
+.about {
+    width: 1000px;
+    height: 200px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 130px;
+    margin-top: 100px;
+    margin-left: 230px;
+    margin-bottom: 100px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.about-info {
+    text-align: center;
+}
+
+.info-title {
+    color: #757575;
 }
