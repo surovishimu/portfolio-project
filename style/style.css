@@ -218,3 +218,60 @@ margin-bottom: 15px;
 .skill-info-title{
     margin-bottom: 10px;
 }
+.summary-container{
+display: flex;
+justify-content: space-around;
+
+}
+.summary-section{
+    
+}
+.summary-container1{
+    width: 400px;
+}
+.summary-container2{
+    width: 400px;
+}
+.title-summary{
+margin-top: 250px;
+color: #181818;
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+}
+.summary-info{
+    margin:30px;
+}
+.summary-caption{
+margin-left: 30px;
+margin-top: 70px;
+
+color:#474747;
+font-size: 30px;
+font-weight: 700;
+}
+
+.study{
+margin-bottom: 20px;
+color: #474747;
+font-size: 18px;
+font-weight: 700px;
+}
+.institute{
+color:#757575;
+font-size: 15px;
+font-weight: 600;
+margin-bottom: 20px;
+}
+.study-info{
+width: 511px;
+color:#757575;
+font-size: 13px;
+font-weight: 400;
+}
+hr{
+width: 500px;
+height: 1px;
+background: #D1D1D1;
+margin-left: 30px;
+}
