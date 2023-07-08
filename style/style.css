@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+}
+
+body {
+    font-family: 'Alkatra', cursive;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Lily Script One', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav span {
+    color: #FD6E0A;
+}
+
+nav>h3 {
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.nav-menu {
+    color: black;
+    font-size: 20px;
+    line-height: normal;
+}
+nav button{
+    width: 120px;
+height: 40px;
+border-radius: 5px;
+background: #FD6E0A;
+border: none;
+cursor: pointer;
+color: white;
+}
